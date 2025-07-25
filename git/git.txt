@@ -29,5 +29,179 @@ $ touch SDLC.txt
 VINEETHA@LAPTOP-V2VRP9UU MINGW64 ~/Downloads/5399748_Adusumalli-Vineetha (main)
 $ git rm SDLC.txt
 fatal: pathspec 'SDLC.txt' did not match any files
+ touch SDLC.txt
+
+VINEETHA@LAPTOP-V2VRP9UU MINGW64 ~/Downloads/5399748_Adusumalli-Vineetha (main)
+$ git add .
+
+VINEETHA@LAPTOP-V2VRP9UU MINGW64 ~/Downloads/5399748_Adusumalli-Vineetha (main)
+$ git commit -m "Add  SDLC floder"
+[main b19322a] Add  SDLC floder
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 SDLC.txt
+
+VINEETHA@LAPTOP-V2VRP9UU MINGW64 ~/Downloads/5399748_Adusumalli-Vineetha (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+VINEETHA@LAPTOP-V2VRP9UU MINGW64 ~/Downloads/5399748_Adusumalli-Vineetha (main)
+$ git log
+commit b19322a9a0637802dd11518ece374499ede38e93 (HEAD -> main)
+Author: vinii11 <vineethaadusumalli11@gmail.com>
+Date:   Sat Jul 26 01:33:36 2025 +0530
+
+    Add  SDLC floder
+
+commit f3c5e78a94ca663c534d44efb449f2cccd0e34cd (origin/main, origin/HEAD)
+Author: vinii11 <vineethaadusumalli11@gmail.com>
+Date:   Sat Jul 26 01:25:40 2025 +0530
+
+    Add  git floder
+
+commit c8dec490e62d9d8e3be96dd087536d67eda6db61
+Author: vinii11 <103997312+vinii11@users.noreply.github.com>
+Date:   Thu Jul 24 00:19:26 2025 +0530
+
+    Update README.md
+
+commit 25947b17ff9df1be0099154c8600a47cf39ebf4a
+Author: vinii11 <103997312+vinii11@users.noreply.github.com>
+Date:   Thu Jul 24 00:18:16 2025 +0530
+
+    Add files via upload
+
+commit 1f115143222940ac01d173d69d2b5c7694d0dbbe
+Author: vinii11 <103997312+vinii11@users.noreply.github.com>
+Date:   Thu Jul 24 00:15:20 2025 +0530
+
+    Update README.md
+
+commit fafd8d091aa383740b9246223067828fd35612e9
+Author: vinii11 <103997312+vinii11@users.noreply.github.com>
+Date:   Thu Jul 24 00:14:17 2025 +0530
+
+    Add files via upload
+
+commit 0b7e123dfedc573fbffa26398a926d7282d2bbac
+Author: vinii11 <103997312+vinii11@users.noreply.github.com>
+Date:   Wed Jul 23 23:59:30 2025 +0530
+
+    Update README.md
+
+commit a9b9da208141a59b830b08ed00e35199d4649415
+Author: vinii11 <103997312+vinii11@users.noreply.github.com>
+Date:   Wed Jul 23 23:56:41 2025 +0530
+
+    Add files via upload
+
+commit c2b44c7fa733068aa8d98c82c5d1b0683266573b
+Author: vinii11 <103997312+vinii11@users.noreply.github.com>
+Date:   Wed Jul 23 21:42:31 2025 +0530
+
+    Initial commit
+VINEETHA@LAPTOP-V2VRP9UU MINGW64 ~/Downloads/5399748_Adusumalli-Vineetha (main)
+$ git log --stat
+commit b19322a9a0637802dd11518ece374499ede38e93 (HEAD -> main)
+Author: vinii11 <vineethaadusumalli11@gmail.com>
+Date:   Sat Jul 26 01:33:36 2025 +0530
+
+    Add  SDLC floder
+
+ SDLC.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit f3c5e78a94ca663c534d44efb449f2cccd0e34cd (origin/main, origin/HEAD)
+Author: vinii11 <vineethaadusumalli11@gmail.com>
+Date:   Sat Jul 26 01:25:40 2025 +0530
+
+    Add  git floder
+
+ git/git.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit c8dec490e62d9d8e3be96dd087536d67eda6db61
+Author: vinii11 <103997312+vinii11@users.noreply.github.com>
+Date:   Thu Jul 24 00:19:26 2025 +0530
+
+    Update README.md
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 25947b17ff9df1be0099154c8600a47cf39ebf4a
+Author: vinii11 <103997312+vinii11@users.noreply.github.com>
+Date:   Thu Jul 24 00:18:16 2025 +0530
+
+    Add files via upload
+
+ simplifygit certificate.jpg | Bin 0 -> 132752 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 1f115143222940ac01d173d69d2b5c7694d0dbbe
+Author: vinii11 <103997312+vinii11@users.noreply.github.com>
+Date:   Thu Jul 24 00:15:20 2025 +0530
+
+    Update README.md
+
+ README.md | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit fafd8d091aa383740b9246223067828fd35612e9
+Author: vinii11 <103997312+vinii11@users.noreply.github.com>
+Date:   Thu Jul 24 00:14:17 2025 +0530
+
+    Add files via upload
+
+ simplilearncertificate.pdf | Bin 0 -> 1003811 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 0b7e123dfedc573fbffa26398a926d7282d2bbac
+Author: vinii11 <103997312+vinii11@users.noreply.github.com>
+Date:   Wed Jul 23 23:59:30 2025 +0530
+
+    Update README.md
+
+ README.md | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+commit a9b9da208141a59b830b08ed00e35199d4649415
+Author: vinii11 <103997312+vinii11@users.noreply.github.com>
+Date:   Wed Jul 23 23:56:41 2025 +0530
+
+    Add files via upload
+
+ Greatlearning.png | Bin 0 -> 134536 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit c2b44c7fa733068aa8d98c82c5d1b0683266573b
+Author: vinii11 <103997312+vinii11@users.noreply.github.com>
+Date:   Wed Jul 23 21:42:31 2025 +0530
+
+    Initial commit
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
 
 
+ git log -n 2
+commit b19322a9a0637802dd11518ece374499ede38e93 (HEAD -> main)
+Author: vinii11 <vineethaadusumalli11@gmail.com>
+Date:   Sat Jul 26 01:33:36 2025 +0530
+
+    Add  SDLC floder
+
+commit f3c5e78a94ca663c534d44efb449f2cccd0e34cd (origin/main, origin/HEAD)
+Author: vinii11 <vineethaadusumalli11@gmail.com>
+Date:   Sat Jul 26 01:25:40 2025 +0530
+
+    Add  git floder
+$ git log -n 1
+commit b19322a9a0637802dd11518ece374499ede38e93 (HEAD -> main)
+Author: vinii11 <vineethaadusumalli11@gmail.com>
+Date:   Sat Jul 26 01:33:36 2025 +0530
+
+    Add  SDLC floder
