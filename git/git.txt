@@ -1,0 +1,33 @@
+VINEETHA@LAPTOP-V2VRP9UU MINGW64 ~/Downloads/5399748_Adusumalli-Vineetha (main)
+$ git push origin main
+Everything up-to-date
+
+VINEETHA@LAPTOP-V2VRP9UU MINGW64 ~/Downloads/5399748_Adusumalli-Vineetha (main)
+$ git add .
+
+VINEETHA@LAPTOP-V2VRP9UU MINGW64 ~/Downloads/5399748_Adusumalli-Vineetha (main)
+$ git commit -m "Add  git floder"
+[main f3c5e78] Add  git floder
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 git/git.txt
+
+VINEETHA@LAPTOP-V2VRP9UU MINGW64 ~/Downloads/5399748_Adusumalli-Vineetha (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 314 bytes | 157.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/vinii11/5399748_Adusumalli-Vineetha.git
+   c8dec49..f3c5e78  main -> main
+
+VINEETHA@LAPTOP-V2VRP9UU MINGW64 ~/Downloads/5399748_Adusumalli-Vineetha (main)
+$ touch SDLC.txt
+
+VINEETHA@LAPTOP-V2VRP9UU MINGW64 ~/Downloads/5399748_Adusumalli-Vineetha (main)
+$ git rm SDLC.txt
+fatal: pathspec 'SDLC.txt' did not match any files
+
+
