@@ -9,3 +9,6 @@ Git certificate
 
 code Signal (Git Basis)
 ![image alt](https://github.com/vinii11/5399748_Adusumalli-Vineetha/blob/0e296b86727d4ec4d7420d69238d16b807e1a17f/codesignal%20certificate.png)
+
+C-Programming
+![image alt](C-Certificate.png)
