@@ -1,5 +1,4 @@
-** JAVA**
-1.Plus Minus Question
+
 
 import java.io.*;
 import java.math.*;
@@ -17,7 +16,7 @@ class Result {
      * The function accepts INTEGER_ARRAY arr as parameter.
      */
 
-    public static void plusMinus(List<Integer> arr) {
+    public static void PlusMinus(List<Integer> arr) {
     // Write your code here
     int n=arr.size();
     int pos=0,neg=0,zero=0;
@@ -43,7 +42,7 @@ class Result {
 
 }
 
-public class Solution {
+public class PlusMinus {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -58,7 +57,7 @@ public class Solution {
             arr.add(arrItem);
         }
 
-        Result.plusMinus(arr);
+        Result.PlusMinus(arr);
 
         bufferedReader.close();
     }
